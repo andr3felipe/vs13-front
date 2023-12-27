@@ -7,6 +7,7 @@
   <a href="#-gif">GIF</a>&nbsp;&nbsp;&nbsp;
 </div>
 
+<hr />
 <div align="center" style="margin-top: 20px;">
   <img alt="landing page do site" src="./assets/otakulandia.png"/>
 </div>
