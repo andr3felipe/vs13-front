@@ -1,0 +1,26 @@
+:root {
+  --text: #170b08;
+  --background: #fcf9f8;
+  --primary: #d34c31;
+  --secondary: #ec917e;
+  --accent: #ef6c52;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+}
+
+.header ul,
+.header li {
+  display: inline-block;
+}
+
+.nav-link {
+  color: white;
+}
