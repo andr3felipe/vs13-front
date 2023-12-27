@@ -27,7 +27,7 @@ Passo-a-passo:
 
 O projeto é um website onde você encontra informações sobre os animes mais populares.
 
-## GIF
+## 👀 GIF
 
 <div align="center" style="margin-top: 20px;">
   <img alt="landing page do site" src="./assets/gif.gif"/>
