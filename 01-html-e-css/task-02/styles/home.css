@@ -1,2 +1,26 @@
-.header {
+.subtitle {
+  padding: 20px 0;
+}
+
+.paragraph {
+  margin-bottom: 2rem;
+}
+
+.link-to-animes {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+
+  font-size: 2rem;
+}
+
+.link-to-animes:hover {
+  color: var(--primary);
+}
+
+.ph-crosshair {
+  position: relative;
+  top: 10px;
+  z-index: 1;
 }

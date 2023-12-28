@@ -9,14 +9,15 @@
 
 <hr />
 <div align="center" style="margin-top: 20px;">
-  <img alt="landing page do site" src="./assets/otakulandia.png"/>
+  <img alt="landing page do site" src="./assets/landing-page.png"/>
 </div>
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- <img alt="landing page do site" width="40px" src="./assets/html.png">HTML5</img>
+- <img alt="html5" width="40px" src="./assets/html.png">HTML5</img>
+- <img alt="css3" width="40px" src="./assets/css.png">CSS3</img>
 
 ## ⚙️ Instalação do projeto
 
@@ -31,5 +32,5 @@ O projeto é um website onde você encontra informações sobre os animes mais p
 ## 👀 GIF
 
 <div align="center" style="margin-top: 20px;">
-  <img alt="landing page do site" src="./assets/gif.gif"/>
+  <img alt="GIF" src="./assets/gif.gif"/>
 </div>
