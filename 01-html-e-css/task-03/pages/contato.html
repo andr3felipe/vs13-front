@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contato" />
+    <meta name="keywords" content="Contato" />
+    <meta name="author" content="André Felipe" />
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon.jpg"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/contato.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>Contato</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <a
+          href="../index.html"
+          class="logotipo"
+          aria-label="link para a página inicial"
+        >
+          <img
+            src="../assets//new-images/favicon.jpg"
+            alt="personagem com cabelo azul apontando para a palavra otaku"
+          />
+        </a>
+
+        <ul>
+          <li><a href="../index.html" class="nav-link">Início</a></li>
+          <li><a href="./animes.html" class="nav-link">Animes</a></li>
+          <li><a href="#" class="nav-link nav-link-active">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <span class="page-location">Você está em: <strong>Contato</strong></span>
+
+    <main>
+      <h1>Fale conosco</h1>
+
+      <div class="form">
+        <h2>Envie um e-mail</h2>
+        <form action="">
+          <div class="form-data">
+            <label for="nome">Nome:</label>
+            <input
+              placeholder="André Felipe"
+              pattern="[A-Za-záéíóúâêîôûãÁÉÍÓÚÂÊÎÔÛ][A-Za-záéíóúâêîôûãÁÉÍÓÚÂÊÎÔÛ]*(?: [A-Za-záéíóúâêîôûãÁÉÍÓÚÂÊÎÔÛ]+)*$"
+              minlength="3"
+              type="text"
+              name="nome"
+              id="nome"
+              required
+            />
+          </div>
+
+          <div class="form-data">
+            <label for="email">E-mail:</label>
+            <input
+              placeholder="email@example.com"
+              type="email"
+              name="email"
+              id="email"
+              required
+            />
+          </div>
+
+          <div class="form-data">
+            <label for="mensagem">Mensagem:</label>
+            <textarea
+              name="mensagem"
+              id="mensagem"
+              cols="30"
+              rows="10"
+              minlength="20"
+              maxlength="1000"
+              required
+            ></textarea>
+          </div>
+
+          <button class="button" type="submit">
+            <span>Enviar</span>
+            <i class="ph ph-arrow-fat-line-right"></i>
+          </button>
+        </form>
+      </div>
+
+      <div class="divisor"></div>
+
+      <div class="location">
+        <h2>Nossa localização:</h2>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97311.51596740977!2d-70.94462376547395!3d24.987851616399027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89451ab5034cb7ab%3A0xb600ecf3df7aca4d!2sTri%C3%A2ngulo%20das%20Bermudas!5e0!3m2!1spt-BR!2sbr!4v1703635766739!5m2!1spt-BR!2sbr"
+          width="600"
+          title="localização do google maps da otakulandia"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </main>
+
+    <footer>
+      <strong>Copyright &copy; Otakulandia 2023</strong>
+    </footer>
+  </body>
+</html>

@@ -27,7 +27,6 @@ h3 {
 
   > label {
     display: block;
-    color: var(--primary);
     font-weight: bold;
   }
 
@@ -72,7 +71,7 @@ h3 {
   font-size: 2rem;
   top: 0;
   left: 0;
-  color: var(--background);
+
   background-color: var(--primary);
   width: 100%;
   border-radius: var(--border-radius);
