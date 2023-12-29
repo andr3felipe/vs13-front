@@ -25,7 +25,7 @@
 
 ```
   <a href="#" class="logotipo">
-    <img src="./assets/new-images/logotipo.jpg" alt="" />
+    <img src="./assets/new-images/favicon.jpg" alt="" />
   </a>
 ```
 
@@ -34,7 +34,7 @@
 ```
   <a href="#" class="logotipo" aria-label="link para a página inicial">
     <img
-      src="./assets/new-images/logotipo.jpg"
+      src="./assets/new-images/favicon.jpg"
       alt="personagem com cabelo azul apontando para a palavra otaku"
     />
   </a>
@@ -362,7 +362,6 @@
   <iframe
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97311.51596740977!2d-70.94462376547395!3d24.987851616399027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f1!3m3!1m2!1s0x89451ab5034cb7ab%3A0xb600ecf3df7aca4d!2sTri%C3%A2ngulo%20das%20Bermudas!5e0!3m2!1spt-BR!2sbr!4v1703635766739!5m2!1spt-BR!2sbr"
     width="600"
-    title="localização do google maps da otakulandia"
     height="450"
      style="border: 0"
     allowfullscreen=""
@@ -374,13 +373,14 @@
 
 #### Depois:
 
-```
+````
 <div class="location">
   <h3>Nossa localização:</h3>
 
   <iframe
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97311.51596740977!2d-70.94462376547395!3d24.987851616399027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f1!3m3!1m2!1s0x89451ab5034cb7ab%3A0xb600ecf3df7aca4d!2sTri%C3%A2ngulo%20das%20Bermudas!5e0!3m2!1spt-BR!2sbr!4v1703635766739!5m2!1spt-BR!2sbr"
     width="600"
+    title="localização do google maps da otakulandia"
     height="450"
      style="border: 0"
     allowfullscreen=""
@@ -388,7 +388,8 @@
     referrerpolicy="no-referrer-when-downgrade"
    ></iframe>
 </div>
-```
+```>
+````
 
 <br />
 
