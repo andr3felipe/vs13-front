@@ -2,9 +2,10 @@
 
 <div align="center">
   <a href="#-pontos-de-melhorias">Pontos de melhorias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#-instalacao-do-projeto">Instalação do projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-sobre-o-projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-gif">GIF</a>&nbsp;&nbsp;&nbsp;
+    <a href="#-header">Global</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-home">Home</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-animes">Animes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-contato">Contato</a>&nbsp;&nbsp;&nbsp;
 </div>
 
 <hr />
@@ -41,6 +42,7 @@
 
 <br />
 <br />
+<hr />
 
 ### HOME
 
@@ -48,12 +50,14 @@
 
 <img alt="Home" src="./assets/readme/home-before.jpg"/>
 
+<hr />
 <br />
 
 #### Avaliação do Lighthouse (anterior as mudanças):
 
 <img alt="Home" src="./assets/readme/lighthouse-home-before.jpg"/>
 
+<hr />
 <br />
 
 ## Mudanças
@@ -137,13 +141,13 @@
 #### Análise da página:
 
 <img alt="minha análise sobre as melhorias possíveis na página animes" src="./assets/readme/animes-before.jpg"/>
-
+<hr />
 <br />
 
 #### Avaliação do Lighthouse (anterior as mudanças):
 
 <img alt="avaliação do lighthouse da página animes antes das mudanças" src="./assets/readme/lighthouse-animes-before.jpg"/>
-
+<hr />
 <br />
 
 ## Mudanças
@@ -217,12 +221,14 @@
 
 <img alt="minha análise sobre possiveis mudanças na página contato" src="./assets/readme/contato-before.jpg"/>
 
+<hr />
 <br />
 
 #### Avaliação do Lighthouse (anterior as mudanças):
 
 <img alt="avaliação do lighthouse sobre a página contato anterior as mudanças" src="./assets/readme/lighthouse-contato-before.jpg"/>
 
+<hr />
 <br />
 
 ## Mudanças
@@ -393,5 +399,3 @@
 <img alt="avaliação da página contato pelo lighthouse após as mudanças" src="./assets/readme/lighthouse-contato-after.jpg"/>
 
 <br />
-
-<hr />
