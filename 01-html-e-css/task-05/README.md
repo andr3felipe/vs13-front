@@ -27,13 +27,6 @@
   <img alt="landing page do site" src="./assets/new-images/landing-page-tablet.jpg"/>
 </div>
 
-## 🚀 Tecnologias
-
-Esse projeto foi desenvolvido com as seguintes tecnologias:
-
-- <img alt="html5" width="40px" src="./assets/new-images/html.png">HTML5</img>
-- <img alt="css3" width="40px" src="./assets/new-images/css.png">CSS3</img>
-
 ## 🥳 Animações
 
 ### Header
@@ -53,6 +46,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 <div style="margin-top: 20px;">
   <img alt="landing page do site" src="./assets/gifs/divisor-animation.gif"/>
 </div>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- <img alt="html5" width="40px" src="./assets/new-images/html.png">HTML5</img>
+- <img alt="css3" width="40px" src="./assets/new-images/css.png">CSS3</img>
 
 ## ⚙️ Como rodar o projeto
 
