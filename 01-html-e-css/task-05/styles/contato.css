@@ -34,7 +34,7 @@ h3 {
   textarea {
     padding: 10px;
     border-radius: var(--border-radius);
-    border-color: var(--accent);
+    border: 2px solid var(--accent);
     text-align: center;
     max-width: 500px;
     width: 100%;
