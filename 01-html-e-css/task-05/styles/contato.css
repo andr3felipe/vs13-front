@@ -1,0 +1,91 @@
+.form {
+  margin-top: 5rem;
+
+  button {
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+    transtion: all 0.5s ease-in-out;
+  }
+
+  button:hover .ph-arrow-fat-line-right {
+    display: block;
+  }
+
+  button:hover span {
+    opacity: 0;
+  }
+}
+
+h3 {
+  margin-bottom: 1rem;
+}
+
+.form-data {
+  display: block;
+  margin: 1rem 0;
+
+  > label {
+    display: block;
+    font-weight: bold;
+  }
+
+  > input,
+  textarea {
+    padding: 10px;
+    border-radius: var(--border-radius);
+    border-color: var(--accent);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  > input:valid,
+  textarea:valid {
+    background-color: var(--valid);
+  }
+
+  > input:focus:invalid,
+  textarea:focus:invalid {
+    background-color: var(--invalid);
+  }
+}
+
+.location {
+  margin-top: 5rem;
+  height: 100%;
+}
+
+.location h2 {
+  margin-bottom: 1rem;
+}
+
+.location iframe {
+  max-width: 600px;
+  width: 100%;
+  height: 450px;
+  max-height: 50vh;
+}
+
+@keyframes arrow {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(30%);
+  }
+}
+
+.ph-arrow-fat-line-right {
+  display: none;
+  position: absolute;
+  font-size: 2rem;
+  top: 0;
+  left: 0;
+
+  background-color: var(--primary);
+  width: 100%;
+  border-radius: var(--border-radius);
+  animation: arrow 0.5s ease-in-out infinite alternate;
+}

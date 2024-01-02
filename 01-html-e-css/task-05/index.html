@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Melhores animes." />
+    <meta name="keywords" content="animes populares, melhores animes, animes" />
+    <meta name="author" content="André Felipe" />
+    <link rel="shortcut icon" href="./assets/favicon.jpg" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <title>Otakulandia</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <a href="#" class="logotipo" aria-label="link para a página inicial">
+          <img
+            src="./assets/new-images/favicon.jpg"
+            alt="personagem com cabelo azul apontando para a palavra otaku"
+          />
+        </a>
+
+        <ul>
+          <li><a href="#" class="nav-link nav-link-active">Início</a></li>
+          <li><a href="./pages/animes.html" class="nav-link">Animes</a></li>
+          <li><a href="./pages/contato.html" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <span class="page-location">Você está em: <strong>Início</strong></span>
+      <h1>Bem-vindo à Otakulandia.</h1>
+
+      <div>
+        <h2 class="subtitle">Aqui você encontra os animes mais populares !</h2>
+        <p class="paragraph">
+          Clique
+          <a href="./pages/animes.html" class="link-to-animes">
+            <i
+              class="ph ph-crosshair"
+              aria-label="link para a página animes"
+            ></i
+          ></a>
+          para ver a nossa lista.
+        </p>
+      </div>
+      <figure class="main-image">
+        <img
+          src="./assets/new-images/collection-1260.jpg"
+          srcset="
+            ./assets/new-images/collection-290.jpg   450w,
+            ./assets/new-images/collection-600.jpg   900w,
+            ./assets/new-images/collection-900.jpg  1260w,
+            ./assets/new-images/collection-1260.jpg 1500w
+          "
+          alt="vários personagens de animes"
+          title="vários personagens de animes"
+        />
+      </figure>
+    </main>
+
+    <footer>
+      <strong>Copyright &copy; Otakulandia 2023</strong>
+    </footer>
+  </body>
+</html>
