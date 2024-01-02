@@ -106,7 +106,7 @@ img {
 }
 
 .header ul:hover li:not(:hover) {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .nav-link {
@@ -119,7 +119,7 @@ img {
 }
 
 .nav-link:hover::before,
-.nav-link-active::before {
+.header ul:not(:hover) .nav-link-active::before {
   content: "";
   position: absolute;
   width: 80%;
@@ -132,7 +132,7 @@ img {
 }
 
 .nav-link:hover::after,
-.nav-link-active::after {
+.header ul:not(:hover) .nav-link-active::after {
   content: "";
   position: absolute;
   width: 80%;
