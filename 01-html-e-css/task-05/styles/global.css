@@ -96,7 +96,7 @@ img {
 .header ul {
   display: flex;
   align-items: center;
-  jusitfy-content: center;
+  justify-content: center;
 
   gap: 1rem;
 }
@@ -128,7 +128,7 @@ img {
   height: 4px;
   background: var(--primary);
   border-radius: var(--border-radius);
-  animation: widthAnimation 0.5s ease-out;
+  animation: widthAnimation 0.5s ease-in-out;
 }
 
 .nav-link:hover::after,
